@@ -1,36 +1,64 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>胡萝卜周博客 - 免费软件分享平台 | 坚持不易,且行且珍惜!</title>
-<style>
-body {
-	background-color:#fafcfa;
-	padding:0;
-	margin:0;
-	color:#333;
-	font-size:16px;
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft YaHei", STHeiti;
-}
-p {
-    text-align: center;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="胡萝卜周博客的官方微信二维码。">
+  <meta name="theme-color" content="#fafcfa">
+  <title>胡萝卜周博客 - 免费软件分享平台 | 坚持不易，且行且珍惜！</title>
+  <style>
+    :root {
+      color: #333;
+      background-color: #fafcfa;
+      font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft YaHei", STHeiti, sans-serif;
+    }
 
-</style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-size: 16px;
+    }
+
+    main {
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
-				<p><img src="./carrotchou2.jpg"  alt="胡萝卜周博客微信"height="100%"  /></p>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPTGP6CWZV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <header hidden>
+    <h1>胡萝卜周博客</h1>
+  </header>
+  <main>
+    <figure>
+      <img src="./carrotchou2.jpg" alt="胡萝卜周博客官方微信二维码">
+      <figcaption hidden>扫描二维码关注胡萝卜周博客。</figcaption>
+    </figure>
+  </main>
+  <footer hidden>胡萝卜周博客</footer>
 
-  gtag('config', 'G-FPTGP6CWZV');
-</script>
-
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FPTGP6CWZV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FPTGP6CWZV');
+  </script>
 </body>
 </html>
